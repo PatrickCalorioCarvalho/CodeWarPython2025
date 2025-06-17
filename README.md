@@ -1,4 +1,4 @@
-![Code War Banner](img/banner.png)
+![Code War Banner](docs/img/banner.png)
 
 # 🏆 Code War: Edição Python + Análise de Dados
 
