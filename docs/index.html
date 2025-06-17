@@ -1,85 +1,97 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Code War: Python 2025</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
-    html, body {
-      margin: 0;
-      padding: 0;
-      font-family: 'Press Start 2P', monospace;
-      background-image: url('A_pixel_art_digital_illustration_promotional_banne.png');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      color: #ffffff;
-      text-shadow: 2px 2px 8px #000;
-      height: 100vh;
-      overflow: auto;
-    }
-
-    .container {
-      padding: 60px 20px;
-      max-width: 800px;
-      margin: auto;
-      background-color: rgba(0, 0, 0, 0.6);
-      border-radius: 16px;
-      box-shadow: 0 0 20px #0ff;
-    }
-
-    h1 {
-      font-size: 28px;
-      color: #0ff;
-      text-align: center;
-    }
-
-    h2 {
-      color: #f0f;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    section {
-      margin-bottom: 32px;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Code War</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <h1>⚔️ Code War: Python + Análise de Dados 2025</h1>
 
-    <section>
-      <h2>🎯 Missão</h2>
-      <ul>
-        <li>Construir uma API em FastAPI com SQLite</li>
-        <li>Escrever testes automatizados</li>
-        <li>Criar um ETL com API pública</li>
-        <li>Desenvolver um dashboard ou relatório visual</li>
-      </ul>
-    </section>
+  <div class="background"></div>
 
-    <section>
-      <h2>📅 Cronograma</h2>
-      <ul>
-        <li><strong>Início:</strong> dd/mm/aaaa</li>
-        <li><strong>Entrega final:</strong> dd/mm/aaaa</li>
-      </ul>
-    </section>
+  <main class="content-box">
+    <h1>⚔️ Code War</h1>
+    <p class="intro"> Edição Python + Análise de Dados 2025</p>
 
-    <section>
-      <h2>🧠 Avaliação</h2>
-      <ul>
-        <li>Boas práticas: 30%</li>
-        <li>Funcionalidade da API: 25%</li>
-        <li>Testes: 15%</li>
-        <li>ETL: 15%</li>
-        <li>Visualização: 15%</li>
-      </ul>
-    </section>
-  </div>
+    <h2>📌 Contexto</h2>
+
+    <p class="intro"> Um desafio interno com o objetivo de aprimorar, de forma descontraída e colaborativa, 
+        as habilidades do time no uso do Airflow, APIs e processos ETL. 
+        Por meio de uma competição amigável, 
+        os participantes terão a oportunidade de aplicar seus conhecimentos na prática,
+        compartilhar aprendizados e impulsionar o desenvolvimento técnico coletivo.</p>
+    
+    <h2>📌 Contexto</h2>
+
+    <p class="intro"> O vencedor que atingir o pódio de primeiro lugar será premiado com um game portátil, 
+        escolhido previamente por votação no grupo dos participantes, 
+        já o de segundo lugar será premiado com um fone de ouvido.</p>
+
+
+    <h2>✅ Objetivos do Desafio </h2>
+    <ol>
+      <li><strong>Criação de uma API do Zero</strong>
+        <ul>
+            <li>Escolha um tema genérico (Exemplo: Filmes, Livros, etc) </li>
+            <li>Ultlizar framework como FastAPI ou Flask.</li>
+            <li>Banco de dados SQLite </li>
+            <li>Usar Melhor Prática de Programação</li>
+            <li>Status code 200 para sucesso e 400 para erro ....</li>
+            <li>Endpoints obrigatórios:
+                <ul>
+                    <li>GET /entidade - Listar todos os itens
+                        <ul>
+                            <li>Accept: application/json</li>
+                            <li>Accept: application/xml</li>
+                        </ul>   
+                    </li>
+                    <li>GET /entidade/{id} - Obter um item específico</li>
+                    <li>POST /entidade - Criar um novo item</li>
+                    <li>PUT /entidade/{id} - Atualizar um item existente</li>
+                    <li>DELETE /entidade/{id} - Excluir um item</li>
+                </ul>  
+            </li> 
+            <li>Entidade com as colunas obrigatórias de: 
+                <ul>
+                    <li>ID</li>
+                    <li>Nome</li>
+                    <li>Descrição</li>
+                    <li>......</li>
+                    <li>Data de inclusão</li>
+                    <li>Data de edição</li>
+                    <li>Data de exclusão</li>
+                </ul>
+            </li>
+
+        </ul>
+      </li>
+      <li><strong>Testes e Validação </strong> – Valide seus endpoints e demonstrando sua funcionalidade .</li>
+      <li><strong>ETL com API Pública</strong> – Realizar processo de Extraia, transforme e envie os dados para sua API.
+        <ul>
+            <li>https://pokeapi.co/</li>
+            <li>https://swapi.dev/</li>
+            <li>https://www.dnd5eapi.co/</li>
+            <li>https://ghibliapi.vercel.app/</li>
+            <li>https://digimon-api.vercel.app/</li>
+            <li>https://rickandmortyapi.com/</li>
+        </ul>
+      </li>
+      <li><strong>Dashboard ou Relatório Visual</strong> – Crie gráficos ou relatórios com Streamlit, Plotly, etc.
+        <ul>
+            <li>Faça uma análise exploratória dos dados </li>
+            <li>Exiba gráficos interativos </li>
+        </ul>
+      </li>
+    </ol>
+
+  </main>
+
+  <footer>
+    <p>🚀 Code War 2025</p>
+  </footer>
+
 </body>
 </html>
