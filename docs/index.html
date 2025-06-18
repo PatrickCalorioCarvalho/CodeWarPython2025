@@ -14,9 +14,9 @@
 
   <main class="content-box">
     <h1>⚔️ Code War</h1>
-    <p class="intro"> Edição Python + Análise de Dados 2025</p>
+    <p class="subtitle"> Edição Python + Análise de Dados 2025</p>
 
-    <h2>📌 Contexto</h2>
+    <h3>📌 Introdução</h3>
 
     <p class="intro"> Um desafio interno com o objetivo de aprimorar, de forma descontraída e colaborativa, 
         as habilidades do time no uso do Airflow, APIs e processos ETL. 
@@ -24,78 +24,100 @@
         os participantes terão a oportunidade de aplicar seus conhecimentos na prática,
         compartilhar aprendizados e impulsionar o desenvolvimento técnico coletivo.</p>
     
-    <h2>🏆 Premiação</h2>
-
-    <p class="intro"> O vencedor que atingir o pódio de primeiro lugar será premiado com um game portátil, 
-        escolhido previamente por votação no grupo dos participantes, 
-        já o de segundo lugar será premiado com um fone de ouvido.</p>
-
-
-    <h2>✅ Objetivos do Desafio </h2>
-    <ol>
-      <li><strong>Criação de uma API do Zero</strong>
-        <ul>
-            <li>Escolha um tema genérico (Exemplo: Filmes, Livros, etc) </li>
-            <li>Ultlizar framework como FastAPI ou Flask.</li>
-            <li>Banco de dados SQLite </li>
-            <li>Usar Melhor Prática de Programação</li>
-            <li>Status code 200 para sucesso e 400 para erro ....</li>
-            <li>Endpoints obrigatórios:
-                <ul>
-                    <li>GET /entidade - Listar todos os itens
-                        <ul>
-                            <li>Accept: application/json</li>
-                            <li>Accept: application/xml</li>
-                        </ul>   
-                    </li>
-                    <li>GET /entidade/{id} - Obter um item específico</li>
-                    <li>POST /entidade - Criar um novo item</li>
-                    <li>PUT /entidade/{id} - Atualizar um item existente</li>
-                    <li>DELETE /entidade/{id} - Excluir um item</li>
-                </ul>  
-            </li> 
-            <li>Entidade com as colunas obrigatórias de: 
-                <ul>
-                    <li>ID</li>
-                    <li>Nome</li>
-                    <li>Descrição</li>
-                    <li>......</li>
-                    <li>Data de inclusão</li>
-                    <li>Data de edição</li>
-                    <li>Data de exclusão</li>
-                </ul>
-            </li>
-
-        </ul>
-      </li>
-      <li><strong>Testes e Validação </strong> – Valide seus endpoints e demonstrando sua funcionalidade .</li>
-      <li><strong>ETL com API Pública</strong> – Realizar processo de Extraia, transforme e envie os dados para sua API.
-        <ul>
-            <li>https://pokeapi.co/</li>
-            <li>https://swapi.dev/</li>
-            <li>https://www.dnd5eapi.co/</li>
-            <li>https://ghibliapi.vercel.app/</li>
-            <li>https://digimon-api.vercel.app/</li>
-            <li>https://rickandmortyapi.com/</li>
-        </ul>
-      </li>
-      <li><strong>Dashboard ou Relatório Visual</strong> – Crie gráficos ou relatórios com Streamlit, Plotly, etc.
-        <ul>
-            <li>Faça uma análise exploratória dos dados </li>
-            <li>Exiba gráficos interativos </li>
-        </ul>
-      </li>
-    </ol>
-
-    <h2>📋 Critérios de Avaliação</h2>
-    <ul>
+    <h3>📋 Critérios de Avaliação</h3>
+    
+    <ul class="intro">
       <li><strong>Estrutura do Código:</strong> Organização clara e modular das funcionalidades implementadas, facilitando a manutenção e legibilidade.</li>
       <li><strong>Funcionamento da API:</strong> Implementação correta dos endpoints, com respostas consistentes e aderência às boas práticas REST.</li>
       <li><strong>Integração com Banco de Dados:</strong> Conexão funcional e segura com o banco de dados, garantindo persistência e consistência dos dados.</li>
       <li><strong>Pipeline no Airflow:</strong> Orquestração adequada do fluxo de dados utilizando o Apache Airflow, com DAGs bem definidas e tarefas funcionais.</li>
       <li><strong>Boas Práticas de Código:</strong> Código limpo, bem documentado, seguindo os padrões recomendados pela linguagem Python (PEP8, tipagem, etc.).</li>
     </ul>
+    
+    <h3>🏆 Premiação</h3>
 
+    <p class="intro"> O vencedor que atingir o pódio de primeiro lugar será premiado com um game portátil, 
+        escolhido previamente por votação no grupo dos participantes, 
+        já o de segundo lugar será premiado com um fone de ouvido.</p>
+
+
+    <section class="desafio">
+      <h2> Objetivos do Desafio </h2>
+      <ol>
+        <li><strong> Desenvolvimento API </strong> – Criação de uma API do Zero .</li>
+          <ul>
+              <li>Escolha um tema genérico (Exemplo: Filmes, Livros, etc) </li>
+              <li>Ultlizar framework como FastAPI ou Flask.</li>
+              <li>Banco de dados SQLite </li>
+              <li>Usar Melhor Prática de Programação</li>
+              <li>Status code 200 para sucesso e 400 para erro ....</li>
+              <li>Endpoints obrigatórios:
+                  <ul>
+                      <li>GET /entidade - Listar todos os itens
+                          <ul>
+                              <li>Accept: application/json</li>
+                              <li>Accept: application/xml</li>
+                          </ul>   
+                      </li>
+                      <li>GET /entidade/{id} - Obter um item específico</li>
+                      <li>POST /entidade - Criar um novo item</li>
+                      <li>PUT /entidade/{id} - Atualizar um item existente</li>
+                      <li>DELETE /entidade/{id} - Excluir um item</li>
+                  </ul>  
+              </li> 
+              <li>Entidade com as colunas obrigatórias de: 
+                  <ul>
+                      <li>ID</li>
+                      <li>Nome</li>
+                      <li>Descrição</li>
+                      <li>......</li>
+                      <li>Data de inclusão</li>
+                      <li>Data de edição</li>
+                      <li>Data de exclusão</li>
+                  </ul>
+              </li>
+
+          </ul>
+        </li>
+        <li><strong> Testes e Validação </strong> – Valide seus endpoints e demonstrando sua funcionalidade .</li>
+        <li><strong> ETL com API Pública </strong> – Realizar processo de Extraia, transforme e envie os dados para sua API.
+          <ul>
+              <li>https://pokeapi.co/</li>
+              <li>https://swapi.dev/</li>
+              <li>https://www.dnd5eapi.co/</li>
+              <li>https://ghibliapi.vercel.app/</li>
+              <li>https://digimon-api.vercel.app/</li>
+              <li>https://rickandmortyapi.com/</li>
+          </ul>
+        </li>
+        <li><strong> Dashboard ou Relatório Visual </strong> – Crie gráficos ou relatórios com Streamlit, Plotly, etc.
+          <ul>
+              <li>Faça uma análise exploratória dos dados </li>
+              <li>Exiba gráficos interativos </li>
+          </ul>
+        </li>
+      </ol>
+    </section> 
+
+      <h3>🗓️ Cronograma</h3>
+      <div class="semanas">
+        <div class="semana">
+          <h3>Semana 1</h3>
+          <h4><strong>Desenvolvimento API</strong></h4>
+        </div>
+        <div class="semana">
+          <h3>Semana 2</h3>
+          <h4><strong>Testes e Validação</strong></h4>
+        </div>
+        <div class="semana">
+          <h3>Semana 3</h3>
+          <h4><strong>ETL com API Pública</strong></h4>
+        </div>
+        <div class="semana">
+          <h3>Semana 4</h3>
+          <h4><strong>Dashboard ou Relatório</strong></h4>
+        </div>
+      </div>
   </main>
 
   <footer>

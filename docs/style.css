@@ -47,23 +47,50 @@ h1 {
 
 h2 {
   margin-top: 2rem;
-  color: #bf2bfe;
-  font-size: 1.3rem;
+  color: rgb(190, 0, 190);;
+  font-size: 3rem;
+  text-align: center;
 }
 
+h3 {
+  margin-top: 2rem;
+  color: #bf2bfe;
+  font-size: 2rem;
+}
+
+
 p.intro {
+  text-align: justify;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  font-size: 1.2rem;
+}
+
+p.subtitle {
   text-align: center;
   margin-bottom: 2rem;
-  color: #ccc;
+  font-size: 1.5rem;
+  color: #aaa;
+}
+
+ul.intro {
+  text-align: justify;
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  margin-right: 3rem;
+  font-size: 1.2rem;
 }
 
 ol, ul {
   padding-left: 1.5rem;
+  font-size: 1.2rem;
 }
 
 ol li, ul li {
-  margin-bottom: 0.8rem;
+  margin-bottom: 1rem;
   line-height: 1.6;
+  font-size: 1.2rem;
 }
 
 footer {
@@ -71,4 +98,43 @@ footer {
   padding: 1.5rem;
   font-size: 0.85rem;
   color: #888;
+}
+
+.desafio {
+  background-color: rgba(0, 255, 255, 0.05);
+  border: 2px solid rgb(255, 0, 255);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.267);
+}
+
+
+.semanas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.semana {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid #0ff;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 200px;
+  box-shadow: 0 0 10px #0ff3;
+}
+
+.semana h3 {
+  margin-top: 0;
+  color: #0ff;
+  font-size: 1.8rem;
+}
+
+.semana h4 {
+  margin-top: 2rem;
+  color: #ccc;
+  font-size: 1.5rem;
+  text-align: center;
 }
