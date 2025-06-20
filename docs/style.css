@@ -138,3 +138,36 @@ footer {
   font-size: 1.5rem;
   text-align: center;
 }
+
+
+.avaliacao {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid #0ff;
+  box-shadow: 0 0 15px #0ff4;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.avaliacao th,
+.avaliacao td {
+  padding: 1.2rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #0ff3;
+}
+
+.avaliacao th {
+  background-color: rgba(0, 255, 255, 0.1);
+  color: #0ff;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.avaliacao td {
+  color: #eee;
+  line-height: 1.5;
+}
