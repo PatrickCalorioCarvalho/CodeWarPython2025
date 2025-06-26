@@ -12,3 +12,4 @@ Seja bem-vindo(a) ao campeonato **Code War**! Esta edição é focada em habilid
 | [IsadoraPrevitalle](https://github.com/IsadoraPrevitalle) | [github.com/IsadoraPrevitalle/CODEWAR](https://github.com/IsadoraPrevitalle/CODEWAR) | _/5 |
 | [pedrowowbr](https://github.com/pedrowowbr) | [github.com/pedrowowbr/CodeWarPython2025](https://github.com/pedrowowbr/CodeWarPython2025) | _/5 |
 | [Felipe Sardinha](https://github.com/felipesardinha19) | [github.com/felipesardinha19/CodeWarPython2025](https://github.com/felipesardinha19/CodeWarPython2025) | _/5 |
+| [angelicaparra](https://github.com/angelicaparra) | [github.com/angelicaparra/CodeWarPython2025](https://github.com/angelicaparra/CodeWarPython2025) | _/5 |
